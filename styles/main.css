@@ -1,0 +1,26 @@
+/* add full background picture */
+body {
+    background-image: url("../images/638028.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* center h1 text on the page*/
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* place div "canvas-container" in the center of the page */
+/* div is square and takes 80% of page*/
+#canvas-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 80%;
+    height: 80%;
+}
